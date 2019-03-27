@@ -22,7 +22,7 @@ nav {
 display: inline-flex;
 }
 
-#mainnav {
+#main-nav {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
