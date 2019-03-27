@@ -10,9 +10,6 @@
   font-weight: normal;
   font-style: normal;
 
-:root {
-    --main-color: black;
-    --secondary-color: white;
 }
 
 body {
@@ -20,9 +17,14 @@ body {
     margin: auto;
     background-color: #0A1525;
 }
+nav {
+    
+display: inline-flex;
+}
 
-header .menu {
+#mainnav {
     display: flex;
+    justify-content: space-around;
     list-style-type: none;
 }
 
@@ -32,7 +34,7 @@ header nav .nav {
     
 
 
-div.banner {
+header div.banner {
 	background-image: url('../img/main2.jpg');
 }
 
